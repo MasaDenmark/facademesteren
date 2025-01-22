@@ -411,11 +411,13 @@ const displayImgs = async (imgs, selected) => {
         <img src=${element.beforImgURL} alt="" style="width: 595px;">
       </div>
       <img src=${element.afterImgURL} alt="img">
-        <span class="cocoen-drag"></span>
     </div>
   </div>`
   }
   document.querySelector(`.${selected} .list`).innerHTML = imgCartona;
+  let script = document.createElement('script');
+  script.src = '/wp-content/themes/facademesteren/assets/js/before_and_afterdef8.js';
+  document.body.appendChild(script);
 }
 
 if (window.location.pathname == "/fliserens/index.html") {
@@ -449,5 +451,9 @@ if (window.location.pathname == "/fliserens/index.html") {
 } else if (window.location.pathname == "/referencer/tag/index.html") {
   getImgs('Tag', 'tag')
 } else if (window.location.pathname == "/tagrens-priser/index.html") {
+  getPlans('Tagrens', 'tagrens-priser')
+} else if (window.location.pathname == "/forEfterGalleri/index.html") {
+  getImgs('Fliserens-Før-efter-galleri', 'forEfterGalleri')
+}  else if (window.location.pathname == "/tagrens/index.html") {
   getPlans('Tagrens', 'tagrens')
-}
+} 
