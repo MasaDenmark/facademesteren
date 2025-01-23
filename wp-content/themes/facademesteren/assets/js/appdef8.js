@@ -436,14 +436,14 @@ if (window.location.pathname == "/fliserens/index.html") {
   getPlans('Facaderens', 'facaderens')
 } else if (window.location.pathname == "/facaderens-priser/index.html") {
   getPlans('Facaderens', 'facaderens-priser')
-} else if (window.location.pathname == "/Mureropgaver-priser/index.html") {
-  getPlans('Mureropgaver', 'mureropgaver-priser')
+} else if (window.location.pathname == "/erhverv/index.html") {
+  getPlans('Mureropgaver', 'mureropgaver')
 } else if (window.location.pathname == "/maling-af-tag/index.html") {
   getPlans('Maling af tag', 'maling-af-tag')
 } else if (window.location.pathname == "/maling-af-tag-priser/index.html") {
   getPlans('Maling af tag', 'maling-af-tag-priser')
-} else if (window.location.pathname == "/loftisolering-priser/index.html") {
-  getPlans('Loftisolering', 'loftisolering-priser')
+} else if (window.location.pathname == "/Loftisolering/index.html") {
+  getPlans('Loftisolering', 'loftisolering')
 } else if (window.location.pathname == "/referencer/fliserens/index.html") {
   getImgs('Facaderenovering', 'sub-facaderenovering')
 } else if (window.location.pathname == "/referencer/traerens/index.html") {
@@ -456,4 +456,6 @@ if (window.location.pathname == "/fliserens/index.html") {
   getImgs('Fliserens-Før-efter-galleri', 'forEfterGalleri')
 }  else if (window.location.pathname == "/tagrens/index.html") {
   getPlans('Tagrens', 'tagrens')
+} else if (window.location.pathname == "/tagrenderens/index.html") {
+  getPlans('Hulmursisolering', 'hulmursisolering')
 } 
