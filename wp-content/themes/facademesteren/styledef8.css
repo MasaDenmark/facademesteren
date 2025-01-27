@@ -365,6 +365,12 @@ template {
   background-color: #fff !important;
 }
 
+.social-icon i{
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  margin-right: 0.6rem;
+}
+
 .reset-ul {
   list-style: none;
   padding: inherit;
@@ -1373,6 +1379,10 @@ a:visited {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .manage-video video{
+    width: 100% !important;
   }
 }
 
@@ -2899,11 +2909,15 @@ input[hidden] {
   margin: auto;
   -webkit-transition: 0.45s cubic-bezier(0.65, 0.05, 0.36, 0.99);
   transition: 0.45s cubic-bezier(0.65, 0.05, 0.36, 0.99);
-  max-height: 150px;
-  min-height: 100px;
-  /* width: 220px; */
+  max-height: 22px;
+  min-height: 54px;
+  width: 88%;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.inner li{
+  font-size: 17px;
 }
 
 #header nav .cover-image {

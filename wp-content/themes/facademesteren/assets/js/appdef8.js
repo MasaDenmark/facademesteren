@@ -436,7 +436,7 @@ if (window.location.pathname == "/fliserens/index.html") {
   getPlans('Facaderens', 'facaderens')
 } else if (window.location.pathname == "/facaderens-priser/index.html") {
   getPlans('Facaderens', 'facaderens-priser')
-} else if (window.location.pathname == "/erhverv/index.html") {
+} else if (window.location.pathname == "/erhverv/index.html" || window.location.pathname == "/") {
   getPlans('Mureropgaver', 'mureropgaver')
 } else if (window.location.pathname == "/maling-af-tag/index.html") {
   getPlans('Maling af tag', 'maling-af-tag')
@@ -458,4 +458,4 @@ if (window.location.pathname == "/fliserens/index.html") {
   getPlans('Tagrens', 'tagrens')
 } else if (window.location.pathname == "/tagrenderens/index.html") {
   getPlans('Hulmursisolering', 'hulmursisolering')
-} 
+}

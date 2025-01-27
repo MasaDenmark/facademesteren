@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
     <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <style>
@@ -133,7 +134,7 @@
     <header id="header" class="header">
         <div class="content content-nav flex items-center space-between relative">
 
-            <a href="index.html" class="custom-logo-link" rel="home" aria-current="page"><img width="106" height="106"
+            <a href="../erhverv/index.html" class="custom-logo-link" rel="home" aria-current="page"><img width="106" height="106"
                     src="../wp-content/uploads/logo2.jpeg" class="custom-logo" alt="Facademesteren.dk"
                     decoding="async" /></a>
             <!--<button class="hidden-desktop" onclick="toggle('navigation')">menu</button>-->
@@ -148,12 +149,19 @@
                 <div id="toggleMenuCross" class="cross menu-cross hidden show"
                     onclick="toggle('navigation'); toggleBody();"></div>
 
-                <img class="cover-image lazy background"
-                    src="../wp-content/themes/facademesteren/assets/images/placeholder.webp"
-                    data-src="../wp-content/uploads/2022/02/image-e1652775844517-330x130.png"
-                    data-srcset="../wp-content/uploads/2022/02/image-e1652775844517-330x130.png" />
+                <a href="../erhverv/index.html">
+                    <img class="cover-image lazy background"
+                        src="../wp-content/themes/facademesteren/assets/images/placeholder.webp"
+                        data-src="../wp-content/uploads/2022/02/image-e1652775844517-330x130.png"
+                        data-srcset="../wp-content/uploads/2022/02/image-e1652775844517-330x130.png" />
+                </a>
 
                 <ul id="primary-menu" class="flex phone-column items-center reset-ul">
+                    <li id="menu-item-207611"
+                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
+                        <a href="../erhverv/index.html">Mureropgaver</a>
+                    </li>
+
                     <li id="menu-item-207611"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
                         <a href="../fliserens/index.html">Fliserens</a>
@@ -182,11 +190,6 @@
 
                     <li id="menu-item-207611"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
-                        <a href="../erhverv/index.html">Mureropgaver</a>
-                    </li>
-
-                    <li id="menu-item-207611"
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
                         <a href="../maling-af-tag/index.html">Maling af tag</a>
                     </li>
 
@@ -196,9 +199,9 @@
                     </li>
 
                     <li id="menu-item-207611"
-                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
-                    <a href="../graffitirens/index.html">Graffitirens</a>
-                </li>
+                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
+                        <a href="../graffitirens/index.html">Graffitirens</a>
+                    </li>
 
                     <li id="menu-item-207611"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-207611">
@@ -1031,156 +1034,160 @@
         }).mount();
     </script>
 
-    <footer class="bg-container">
+<footer class="bg-container">
+    <div class="inner">
+        <div class="widget top-widget">
+            <div id="media_image-8" class="widget widget_media_image"><img width="106" height="106"
+                    src="../wp-content/uploads/logo2.jpeg" class="image wp-image-207336  attachment-full size-full"
+                    alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy"
+                    sizes="auto, (max-width: 106px) 100vw, 106px" /></div>
+            <div id="text-9" class="widget widget_text">
+                <p class="widget-title h2">Bestil et uforpligtende tilbud</p>
+                <div class="textwidget">
+                    <p>Du er altid velkommen til at kontakte os, hvis du brænder inde med spørgsmål, eller hvis du
+                        gerne vil vide mere om de ydelser eller de priser, som vi kan tilbyde.</p>
+                </div>
+            </div>
+            <a href="tel:RING: +45 25 10 02 43" class="btn cta">
+                RING: +45 25 10 02 43 </a>
 
-        <div class="inner">
-            <div class="widget top-widget">
-                <div id="media_image-8" class="widget widget_media_image"><img width="106" height="106"
-                        src="../wp-content/uploads/logo1.jpeg" class="image wp-image-207336  attachment-full size-full"
-                        alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy"
-                        sizes="auto, (max-width: 106px) 100vw, 106px" /></div>
-                <div id="text-9" class="widget widget_text">
-                    <p class="widget-title h2">Bestil et uforpligtende tilbud</p>
+            <a onclick="popup('popup-contact', 'footer'); return false;" class="btn outlined">
+                Modtag et uforpligtende tilbud </a>
+        </div>
+
+        <div class="content columns-4">
+            <div class="widget">
+                <div id="text-2" class="widget widget_text">
+                    <p class="widget-title h4">Facademesteren.dk</p>
                     <div class="textwidget">
-                        <p>Du er altid velkommen til at kontakte os, hvis du brænder inde med spørgsmål, eller hvis du
-                            gerne vil vide mere om de ydelser eller de priser, som vi kan tilbyde.</p>
+                        <p>Mandag &#8211; Fredag: Kl. 8-17<br />
+                            Lørdag &#8211; Søndag: Efter aftale</p>
+                        <p>facademesteren ApS<br />
+                            Tordenskjoldsgade 6
+                            8200 Århus n<br />
+                            CVR. 38878972</p>
+                        <p>Kontakt<br />
+                            Mail: <a href="mailto:info@facademesteren.dk">info@facademesteren.dk</a><br />
+                            Telefon: <a href="tel:+4525100243"><strong>+45 25 10 02 43 </strong></a></p>
                     </div>
                 </div>
-                <a href="tel:RING: +45 25 10 02 43" class="btn cta">
-                    RING: +45 25 10 02 43 </a>
-
-                <a onclick="popup('popup-contact', 'footer'); return false;" class="btn outlined">
-                    Modtag et uforpligtende tilbud </a>
+                <div class="social-links">
+                    <p class="widget-title h4">Socialt netværk</p>
+                    <div class="social-icon">
+                        <a href="https://www.tiktok.com/@facademesteren.dk"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/18Xn3VetF5/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/facademesteren?igsh=YXkzam5hMnh0cnRw&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
-
-            <div class="content columns-4">
-                <div class="widget">
-                    <div id="text-2" class="widget widget_text">
-                        <p class="widget-title h4">Facademesteren.dk</p>
-                        <div class="textwidget">
-                            <p>Mandag &#8211; Fredag: Kl. 8-17<br />
-                                Lørdag &#8211; Søndag: Efter aftale</p>
-                            <p>facademesteren ApS<br />
-                                Sletvej 50X, 8310 Tranbjerg<br />
-                                CVR. 39129736</p>
-                            <p>Kontakt<br />
-                                Mail: <a href="mailto:info@facademesteren.dk">info@facademesteren.dk</a><br />
-                                Telefon: <a href="tel:+4525100243"><strong>+45 25 10 02 43 </strong></a></p>
-                        </div>
+            <div class="widget">
+                <div id="nav_menu-2" class="widget widget_nav_menu">
+                    <p class="widget-title h4">Specialer</p>
+                    <div class="menu-specialer-container">
+                        <ul id="menu-specialer" class="menu">
+                            <li id="menu-item-207735"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207735"><a
+                                    href="../algebehandling/index.html">Algebehandling</a></li>
+                            <li id="menu-item-207751"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207751"><a
+                                    href="../algerens/index.html">Algerens</a></li>
+                            <li id="menu-item-207736"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207736"><a
+                                    href="../facaderens/index.html">Facaderens</a></li>
+                            <li id="menu-item-207737"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207737"><a
+                                    href="../fliserens/index.html">Fliserens</a></li>
+                            <li id="menu-item-207750"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207750"><a
+                                    href="../impraegnering/index.html">Imprægnering</a></li>
+                            <li id="menu-item-207749"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207749"><a
+                                    href="../graffitirens/index.html">Graffitirens</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="widget">
-                    <div id="nav_menu-2" class="widget widget_nav_menu">
-                        <p class="widget-title h4">Specialer</p>
-                        <div class="menu-specialer-container">
-                            <ul id="menu-specialer" class="menu">
-                                <li id="menu-item-207735"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207735"><a
-                                        href="../algebehandling/index.html">Algebehandling</a></li>
-                                <li id="menu-item-207751"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207751"><a
-                                        href="../algerens/index.html">Algerens</a></li>
-                                <li id="menu-item-207736"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207736"><a
-                                        href="../facaderens/index.html">Facaderens</a></li>
-                                <li id="menu-item-207737"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207737"><a
-                                        href="../fliserens/index.html">Fliserens</a></li>
-                                <li id="menu-item-207750"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207750"><a
-                                        href="../impraegnering/index.html">Imprægnering</a></li>
-                                <li id="menu-item-207749"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207749"><a
-                                        href="../graffitirens/index.html">Graffitirens</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="widget">
-                    <div id="nav_menu-3" class="widget widget_nav_menu">
-                        <p class="widget-title h4">Nyttige links</p>
-                        <div class="menu-nyttige-links-container">
-                            <ul id="menu-nyttige-links" class="menu">
-                                <li id="menu-item-207729"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207729"><a
-                                        href="../faq/index.html">FAQ – Ofte stillede spørgsmål</a></li>
-                                <li id="menu-item-207755"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207755"><a
-                                        href="../priser/index.html">Priser</a></li>
-                                <li id="menu-item-207715"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207715"><a
-                                        href="../handelsbetingelser/index.html">Handelsbetingelser</a></li>
-                                <li id="menu-item-207716"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207716"><a
-                                        href="../kontakt-os/index.html">Kontakt</a></li>
-                                <li id="menu-item-210197"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210197"><a
-                                        href="../tagrens/index.html">Tagrens</a></li>
-                                <li id="menu-item-210196"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210196"><a
-                                        href="../tagrens-priser/index.html">Tagrens priser</a></li>
-                                <li id="menu-item-209183"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209183"><a
-                                        href="../algerens/index.html">Algerens</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="widget">
-                    <div id="text-10" class="widget widget_text">
-                        <p class="widget-title h4">Tilmeld nyhedsbrev</p>
-                        <div class="textwidget">
-                            <p>Tilmeld dig vores nyhedsbrev og modtag tips, tricks og tilbud løbende. Ingen spam.</p>
-                        </div>
-                    </div>
-                    <form id="nyhedsbrev" class="flex no-wrap h-auto row-phone" name="form" method="post" action="#">
-
-                        <div class="input floating-label">
-                            <input type="text" class="p-14" id="mailchimp" name="mail_email" placeholder="prikogstreg">
-                            <label for="mailchimp" class="flex p-16">Din email adresse</label>
-                        </div>
-
-                        <input type="button" name="save" onclick="singup_newsletter('mailchimp')"
-                            class="btn primary newsletter reset-button" value="Tilmeld" />
-
-                        <input type="hidden" name="mailchimp" value="true">
-                        <input type="hidden" name="action" value="mailchimp_foot_contact_form">
-
-                    </form>
-
-                    <div id="signup-error" class="error-message">
-                        Ups! Din mail ser ikke rigtig ud!
-                    </div>
-
-                    <div id="signup-succes" class="succes-message">
-                        Tusind tak for din singup
-                    </div>
-
-                    <div id="text-12" class="widget widget_text">
-                        <div class="textwidget">
-                        </div>
-                    </div>
-                    <div id="text-13" class="widget widget_text">
-                        <div class="textwidget">
-                            <p><strong>Gratis prøverens</strong></p>
-                            <p>Oplev effekten af professionel afrensning på dine egne fliser, belægningssten eller
-                                facade. Efter den gratis prøverens giver vi et uforpligtende tilbud på afrensning og
-                                imprægnering af resten af overfladen.</p>
-                        </div>
+            </div>
+            <div class="widget">
+                <div id="nav_menu-3" class="widget widget_nav_menu">
+                    <p class="widget-title h4">Nyttige links</p>
+                    <div class="menu-nyttige-links-container">
+                        <ul id="menu-nyttige-links" class="menu">
+                            <li id="menu-item-207729"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207729"><a
+                                    href="../faq/index.html">FAQ – Ofte stillede spørgsmål</a></li>
+                            <li id="menu-item-207755"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207755"><a
+                                    href="../priser/index.html">Priser</a></li>
+                            <li id="menu-item-207715"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207715"><a
+                                    href="../handelsbetingelser/index.html">Handelsbetingelser</a></li>
+                            <li id="menu-item-207716"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207716"><a
+                                    href="../kontakt-os/index.html">Kontakt</a></li>
+                            <li id="menu-item-209183"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209183"><a
+                                    href="../algerens/index.html">Algerens</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="content columns-2 copyright flex items-center">
-                <p class="copyrights p-12">
-                    © Facademesteren.dk 2024 Alle rettigheder forbeholdes. | Design og udvikling af masaitservices.com </p>
+            <div class="widget">
+                <div id="text-10" class="widget widget_text">
+                    <p class="widget-title h4">Tilmeld nyhedsbrev</p>
+                    <div class="textwidget">
+                        <p>Tilmeld dig vores nyhedsbrev og modtag tips, tricks og tilbud løbende. Ingen spam.</p>
+                    </div>
+                </div>
+                <form id="nyhedsbrev" class="flex no-wrap h-auto row-phone" name="form" method="post" action="#">
+
+                    <div class="input floating-label">
+                        <input type="text" class="p-14" id="mailchimp" name="mail_email" placeholder="prikogstreg">
+                        <label for="mailchimp" class="flex p-16">Din email adresse</label>
+                    </div>
+
+                    <input type="button" name="save" onclick="singup_newsletter('mailchimp')"
+                        class="btn primary newsletter reset-button" value="Tilmeld" />
+
+                    <input type="hidden" name="mailchimp" value="true">
+                    <input type="hidden" name="action" value="mailchimp_foot_contact_form">
+
+                </form>
+
+                <div id="signup-error" class="error-message">
+                    Ups! Din mail ser ikke rigtig ud!
+                </div>
+
+                <div id="signup-succes" class="succes-message">
+                    Tusind tak for din singup
+                </div>
+
+                <div id="text-12" class="widget widget_text">
+                    <div class="textwidget">
+                    </div>
+                </div>
+                <div id="text-13" class="widget widget_text">
+                    <div class="textwidget">
+                        <p><strong>Gratis prøverens</strong></p>
+                        <p>Oplev effekten af professionel afrensning på dine egne fliser, belægningssten eller
+                            facade. Efter den gratis prøverens giver vi et uforpligtende tilbud på afrensning og
+                            imprægnering af resten af overfladen.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <img class="lazy background" src="../wp-content/themes/facademesteren/assets/images/placeholder.webp"
-            data-src="" data-srcset="" alt="Image for hero" />
-        <div class="overlay-color dark"></div>
-    </footer>
+        <div class="content columns-2 copyright flex items-center">
+            <p class="copyrights p-12">
+                © Facademesteren.dk 2024 Alle rettigheder forbeholdes. | Design og udvikling af masaitservices.com
+            </p>
+        </div>
+    </div>
+
+    <img class="lazy background" src="../wp-content/themes/facademesteren/assets/images/placeholder.webp"
+        data-src="" data-srcset="" alt="Image for hero" />
+    <div class="overlay-color dark"></div>
+</footer>
 
     <a onclick="popup('popup-question', 'footer'); return false;" class="ask-question-floating">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
