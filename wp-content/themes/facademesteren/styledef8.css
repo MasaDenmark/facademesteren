@@ -2905,6 +2905,11 @@ input[hidden] {
   margin-right: auto;
 }
 
+.media_image-9 img{
+  width: 150px;
+  height: 150px;
+}
+
 #header .custom-logo-link img {
   margin: auto;
   -webkit-transition: 0.45s cubic-bezier(0.65, 0.05, 0.36, 0.99);
