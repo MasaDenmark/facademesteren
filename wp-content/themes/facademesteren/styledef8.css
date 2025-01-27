@@ -2906,8 +2906,8 @@ input[hidden] {
 }
 
 .media_image-9 img{
-  width: 150px;
-  height: 150px;
+  width: 50px !important;
+  height: 50px !important;
 }
 
 #header .custom-logo-link img {
