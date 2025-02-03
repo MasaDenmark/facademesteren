@@ -1177,7 +1177,7 @@ pre {
 
 .p-18 {
   font-size: 18px;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bold {
