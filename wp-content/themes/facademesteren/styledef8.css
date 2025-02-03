@@ -1177,7 +1177,6 @@ pre {
 
 .p-18 {
   font-size: 18px;
-  color: white !important;
 }
 
 .bold {
@@ -1210,7 +1209,7 @@ a:visited {
 }
 
 .color-white {
-  color: white !important;
+  color: white;
 }
 
 @media (max-width: 700px) {
