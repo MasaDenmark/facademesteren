@@ -1179,6 +1179,11 @@ pre {
   font-size: 18px;
 }
 
+a[href^=tel] {
+  color: #fff !important;
+  text-decoration: none;
+}
+
 .bold {
   font-weight: bold;
 }
